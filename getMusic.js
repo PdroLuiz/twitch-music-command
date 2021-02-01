@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const token = process.env.token
+const token = process.env.TOKEN
 
 const headers = {
     headers: { Authorization: `Bearer ${token}` }
